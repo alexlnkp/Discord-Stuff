@@ -1,0 +1,77 @@
+/**
+  * @name red Azurite
+  * @author DevEvil#1234
+  * @version 1.0
+  * @description Bring a new look to your Discord with Azurite, A dark and customizable theme
+  * @authorId 468132563714703390
+  * @authorLink https://devevil.com
+  * @source https://github.com/DevEvil99/Azurite-Discord-Theme
+  * @website https://devevil.com
+  * @invite jsQ9UP7kCA
+*/
+
+@import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Azurite/Azurite.theme.css');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+	--azurite-bg: #0e0404;
+	--azurite-bg2: #0e0404;
+	--background-primary: #0e0404;
+	--background-secondary: #0e0404;
+	--azurite-sec: #e04040;
+	--azurite-links: #ec8c8c;
+	--background-mentioned: #2e0e0e;
+	--background-mentioned-hover: #3a1717;
+	--azurite-home-icon: url('https://media.discordapp.net/attachments/718426110244814868/1126737850998734888/logo.png');
+	--watermark-filter-invert: 0%;
+	--watermark-filter-sepia: 50%;
+	--watermark-filter-saturate: 3000%;
+	--watermark-filter-hue-rotate: 100deg;
+	--watermark-filter-brightness: 100%;
+	--watermark-filter-contrast: 70%;
+	--azurite-emoji-picker-color: #ec8c8c;
+	--azurite-emoji-color: #ec8c8c;
+	--avatar-radius: 5px;
+	--server-radius: 5px;
+  --msg-bg-radius: 5px;
+	--font: 'Righteous', cursive;
+}
+.emojiItem-277VFM.emojiItemSelected-2Lg50V {
+	background-color: #ec8c8c;
+}
+.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover, .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .topPill-3DJJNV .themed-2-lozF.selected-g-kMVV.item-3XjbnG, .tabBar-ra-EuL .item-3mHhwr, .tabBody-2dgbAs, .side-2ur1Qk .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP), .topPill-3DJJNV .themed-2-lozF.item-3XjbnG:hover:not(.disabled-1nofHP) {
+  background-color: var(--azurite-bg2);
+  color: var(--azurite-sec);
+}
+.sprite-2lxwfc {
+    background-image: url(https://media.discordapp.net/attachments/718426110244814868/1126737572148822116/icons.png);
+    
+}
+.wordmark-2u86JB:after {
+  filter: invert(var(--watermark-filter-invert)) sepia(var(--watermark-filter-sepia)) saturate(var(--watermark-filter-saturate)) hue-rotate(var(--watermark-filter-hue-rotate)) brightness(var(--watermark-filter-brightness)) contrast(var(--watermark-filter-contrast));
+  content: url("ass");
+}
+.wordmark-2u86JB:after {
+  filter: invert(var(--watermark-filter-invert)) sepia(var(--watermark-filter-sepia)) saturate(var(--watermark-filter-saturate)) hue-rotate(var(--watermark-filter-hue-rotate)) brightness(var(--watermark-filter-brightness)) contrast(var(--watermark-filter-contrast));
+  content: url("ass");
+}
+.mentioned-Tre-dv {
+    position: relative;
+    background-color: var(--background-mentioned);
+}
+.message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy, .mouse-mode.full-motion .mentioned-Tre-dv:hover {
+    background-color: var(--background-mentioned-hover);
+}
+.container-1zzFcN {
+    color: var(--header-primary);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--background-modifier-accent);
+    background: var(--background-secondary);
+}
+.theme-dark .panel-2ZFCRb {
+    background: var(--azurite-bg,var(--background-secondary-alt));
+}

@@ -1,0 +1,71 @@
+/**
+  * @name turqoise Azurite
+  * @author DevEvil#1234
+  * @version 1.0
+  * @description Bring a new look to your Discord with Azurite, A dark and customizable theme
+  * @authorId 468132563714703390
+  * @authorLink https://devevil.com
+  * @source https://github.com/DevEvil99/Azurite-Discord-Theme
+  * @website https://devevil.com
+  * @invite jsQ9UP7kCA
+*/
+
+@import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Azurite/Azurite.theme.css');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+    --azurite-sec: #40E0D0;
+    --azurite-links: #8cece2;
+    --azurite-bg: #040e0c;
+    --azurite-bg2: #040e0c;
+    --background-primary: #040e0c;
+    --background-secondary: #040e0c;
+    --azurite-sec: #40E0D0;
+    --azurite-links: #8cece2;
+    --background-mentioned: #0f312a;
+    --background-mentioned-hover: #12362f;
+	--azurite-home-icon: url('https://media.discordapp.net/attachments/718426110244814868/1127826608586248252/turqlogo.png');
+	--watermark-filter-invert: 0%;
+	--watermark-filter-sepia: 50%;
+	--watermark-filter-saturate: 3000%;
+	--watermark-filter-hue-rotate: 100deg;
+	--watermark-filter-brightness: 100%;
+	--watermark-filter-contrast: 70%;
+  --azurite-emoji-picker-color: #ffffff;
+	--azurite-emoji-color: #ffffff;
+	--avatar-radius: 5px;
+	--server-radius: 5px;
+  --msg-bg-radius: 5px;
+  --font: 'Trebuchet MS', regular;
+	--font: 'Righteous', cursive;
+}
+
+.wordmark-2u86JB:after {
+  filter: invert(var(--watermark-filter-invert)) sepia(var(--watermark-filter-sepia)) saturate(var(--watermark-filter-saturate)) hue-rotate(var(--watermark-filter-hue-rotate)) brightness(var(--watermark-filter-brightness)) contrast(var(--watermark-filter-contrast));
+  content: url("ass");
+}
+.mentioned-Tre-dv {
+    position: relative;
+    background-color: var(--background-mentioned);
+}
+.message-2CShn3.mentioned-Tre-dv.selected-2LX7Jy, .mouse-mode.full-motion .mentioned-Tre-dv:hover {
+    background-color: var(--background-mentioned-hover);
+}
+
+.sprite-2lxwfc {
+    background-image: url(https://media.discordapp.net/attachments/718426110244814868/1127825368645107743/turqicons.png);
+    
+}
+.container-1zzFcN {
+    color: var(--header-primary);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--background-modifier-accent);
+    background: var(--background-secondary);
+}
+.theme-dark .panel-2ZFCRb {
+    background: var(--azurite-bg,var(--background-secondary-alt));
+}
